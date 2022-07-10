@@ -18,4 +18,4 @@ Used the JavaScript Moment library to change updatedAt datetime to describe how 
 
 nodemodules not included, when repository is downloaded, cd to cards folder, run 'npm -i' to install node modules, then run 'npm start', and go to localhost:3000/ on the browser
 
-[Source](github.com/jll1/cardsapp)
+[Source](github.com/jll1)
