@@ -1,46 +1,21 @@
-# Getting Started with Create React App
+# Cards Application Subly
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Created an initial state and a function to set the state. 
 
-## Available Scripts
+Asynchronous getjson function to fetch the url data, change to json object, and extract the media object.  
 
-In the project directory, you can run:
+Set the media object as the state.  
 
-### `npm start`
+useEffect to call the asynchronous getjson function.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Return all cards on one page, using ternary operators to check the status of the objects that determine what the card shows. Alternatively it could count the json objects and use an index to display each card one by one or on a button click.  
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Separated cards into functional components.  
 
-### `npm test`
+Used a circle loader instead of a bar loader.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Used the JavaScript Moment library to change updatedAt datetime to describe how long ago. Included in App.tsx, Installed using: npm install moment --save 
 
-### `npm run build`
+nodemodules not included, when repository is downloaded, cd to cards folder, run 'npm -i' to install node modules, then run 'npm start', and go to localhost:3000/ on the browser
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Source](github.com/jll1/cardsapp)
