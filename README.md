@@ -17,5 +17,3 @@ Used a circle loader instead of a bar loader.
 Used the JavaScript Moment library to change updatedAt datetime to describe how long ago. Included in App.tsx, Installed using: npm install moment --save 
 
 nodemodules not included, when repository is downloaded, cd to cards folder, run 'npm -i' to install node modules, then run 'npm start', and go to localhost:3000/ on the browser
-
-[Source](github.com/jll1)
